@@ -1,0 +1,11 @@
+# robots.txt — All Maintenance (https://www.allmaintenancewa.com)
+User-agent: *
+Allow: /
+
+# Block nothing — single-page marketing site, fully indexable.
+
+# AI crawlers (optional: comment out any line to allow that bot)
+# User-agent: GPTBot
+# Disallow: /
+
+Sitemap: https://www.allmaintenancewa.com/sitemap.xml

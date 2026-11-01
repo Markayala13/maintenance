@@ -1,0 +1,15 @@
+{
+  "name": "All Maintenance",
+  "short_name": "All Maintenance",
+  "description": "Lawn care, flower installation, landscaping and outdoor maintenance in Seattle, WA and within 50 miles. Free estimates.",
+  "lang": "en-US",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#6c3cff",
+  "icons": [
+    { "src": "assets/favicon.png", "sizes": "any", "type": "image/png" },
+    { "src": "assets/all-maintenance-logo.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

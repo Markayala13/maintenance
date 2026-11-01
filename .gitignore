@@ -1,0 +1,11 @@
+# Archivos comprimidos / binarios redundantes
+*.zip
+
+# Capturas de referencia (no son parte del sitio)
+adapted-mobile.png
+adapted-mobile-full.png
+original-mobile.png
+
+# Sistema
+Thumbs.db
+.DS_Store

@@ -1,0 +1,82 @@
+===========================================================
+  ALL MAINTENANCE — CARPETA "out" LISTA PARA PUBLICAR
+  Dominio: https://www.allmaintenancewa.com
+===========================================================
+
+Esta carpeta "out" contiene el sitio COMPLETO y optimizado para
+Google y SEO profesional. Sube TODO el contenido de esta carpeta
+a la raiz (public_html / www / raiz del hosting) de tu dominio.
+
+-----------------------------------------------------------
+1) QUE CONTIENE
+-----------------------------------------------------------
+- index.html          -> la pagina (con SEO tecnico + datos
+                         estructurados + botones rojos de llamada)
+- assets/             -> imagenes, logos, videos
+- robots.txt          -> permite indexar + apunta al sitemap
+- sitemap.xml         -> mapa del sitio para Google
+- site.webmanifest    -> icono/instalable (PWA)
+- 404.html            -> pagina de error con boton de llamada
+- LEEME-SEO.txt       -> este archivo
+
+-----------------------------------------------------------
+2) SEO YA INCLUIDO (no tienes que hacer nada)
+-----------------------------------------------------------
+[OK] Titulo y meta description optimizados
+[OK] Canonical a https://www.allmaintenancewa.com/
+[OK] Open Graph + Twitter Card (se ve bien al compartir en
+     WhatsApp / Facebook / Instagram / X)
+[OK] Datos estructurados JSON-LD:
+       - LocalBusiness (negocio local) con tu telefono 206-423-8352
+       - Catalogo de servicios
+       - FAQ (preguntas frecuentes -> pueden salir en Google)
+       - WebSite
+[OK] Etiquetas geo (US-WA / Washington)
+[OK] robots.txt + sitemap.xml
+[OK] theme-color, iconos, manifest
+[OK] Boton ROJO "Call 206-423-8352" en: navbar, menu movil,
+     hero, contacto, footer y boton flotante fijo (clic-para-llamar)
+
+-----------------------------------------------------------
+3) GOOGLE SEARCH CONSOLE (indexar en Google) - 5 PASOS
+-----------------------------------------------------------
+a) Entra a:  https://search.google.com/search-console
+b) Agrega una propiedad -> elige "Prefijo de URL" ->
+   escribe:  https://www.allmaintenancewa.com
+c) Metodo de verificacion "Etiqueta HTML". Google te da algo asi:
+     <meta name="google-site-verification" content="ABC123..." />
+   Copia SOLO el codigo (lo que esta entre comillas en content).
+d) Abre index.html, busca la linea:
+     <meta content="REEMPLAZA_CODIGO_GOOGLE" name="google-site-verification"/>
+   y reemplaza  REEMPLAZA_CODIGO_GOOGLE  por tu codigo real.
+   (Si no lo reemplazas, el sitio igual funciona; solo que esa
+    verificacion no valida. Puedes borrar la linea si prefieres
+    verificar por DNS.)
+e) Sube el sitio, vuelve a Search Console y pulsa "Verificar".
+   Luego ve a "Sitemaps" y envia:  sitemap.xml
+
+TIP: para verificar por DNS (mas robusto) usa la opcion "Dominio"
+en el paso (b) y agrega el registro TXT que Google te de, en el
+panel donde compraste el dominio.
+
+-----------------------------------------------------------
+4) GOOGLE BUSINESS PROFILE (aparecer en el MAPA) - IMPORTANTE
+-----------------------------------------------------------
+Para salir en Google Maps y en el "paquete local", crea un perfil
+gratis en:  https://business.google.com
+Usa EXACTAMENTE el mismo nombre, telefono (206-423-8352) y sitio
+web. Esto, junto al JSON-LD, es lo que mas mueve el SEO local.
+
+-----------------------------------------------------------
+5) PENDIENTES OPCIONALES (mejoran aun mas el SEO)
+-----------------------------------------------------------
+- EMAIL ya incluido: allmaintenanceco@yahoo.com (en contacto, pie
+  y datos estructurados).
+- CIUDAD / AREA ya incluida: Seattle, WA + 50 millas a la redonda
+  (GeoCircle en el JSON-LD, meta geo y textos visibles).
+  Si tienes una direccion exacta de calle, dimela y la agrego.
+- Redes sociales: agrega tus URLs (Instagram/Facebook) en el campo
+  "sameAs": [] del JSON-LD dentro de index.html.
+- Resenas: cuando tengas resenas reales se puede agregar rating.
+
+Hecho con enfoque en SEO local para Washington. Exitos!
